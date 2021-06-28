@@ -3,9 +3,9 @@
 ## Overview of the analysis: 
 The purpose of this analysis is to use different unbalanced classification machine learning models and assess the accuracy of each model's prediction on credit risk. The differentf types of models used to predict credit risk were resampling models, the SMOTEENN algorithm, and ensemble classifiers.
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results: 
 
-### RandomOversampler:
+### RandomOversampler
 ![ros.png](ros.png)
 
 - From the results above, we can see that the RandomOverSampler model generates a balanced accuracy score of about 65%.
