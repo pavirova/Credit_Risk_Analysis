@@ -6,37 +6,37 @@ The purpose of this analysis is to use different unbalanced classification machi
 ## Results: 
 
 ### RandomOversampler
-![ros.png](ros.png)
+![Resources/ros.png](Resources/ros.png)
 
 - From the results above, we can see that the RandomOverSampler model generates a balanced accuracy score of about 65%.
 - The classification report shows that this model's precision score for those with high risk is 1% with a recall score of 62%, while the precision score for those with low-risk is 100% with a recall score of 68%
 
 ### SMOTE Oversampling
-![smote.png](smote.png)
+![Resources/smote.png](Resources/smote.png)
 
 - From the results above, we can see that the SMOTE Overseampling model generates a balanced accuracy score of about 64%.
 - The classification report shows that this model's precision score is similar to that of the RandomOversampler model, with high risk at 1% and low risk at 100%. The recall score of 63% for high risk and 66% for low risk.
 
 ### ClusterCentroids Undersampling
-![clustercentroids.png](clustercentroids.png)
+![Resources/clustercentroids.png](Resources/clustercentroids.png)
 
 - From the results above, we can see that the ClusterCentroids model generates a balanced accuracy score of about 51%.
 - The classification report shows that this model's precision score for those with high risk is 1% with a recall score of 61%, while the precision score for those with low-risk is 100% with a recall score of 42%.
 
 ### SMOTEEN Combination Sampling
-![smoteen.png](smoteen.png)
+![Resources/smoteen.png](Resources/smoteen.png)
 
 - From the results above, we can see that the SMOTEEN model generates a balanced accuracy score of about 64%.
 - The classification report shows that this model's precision score for those with high risk is 1% with a recall score of 71%, while the precision score for those with low-risk is 100% with a recall score of 56%.
 
 ### BalancedRandomForestClassifier
-![balancedrfc.png](balancedrfc.png)
+![Resources/balancedrfc.png](Resources/balancedrfc.png)
 
 - From the results above, we can see that the BalancedRandomForestClassifier model generates a balanced accuracy score of about 79%.
 - The classification report shows that this model's precision score for those with high risk is 4% with a recall score of 67%, while the precision score for those with low-risk is 100% with a recall score of 91%.
 
 ### EasyEnsembleClassifier
-![ee.png](ee.png)
+![Resources/ee.png](Resources/ee.png)
 
 - From the results above, we can see that the RandomOverSampler model generates a balanced accuracy score of about 93%.
 - The classification report shows that this model's precision score for those with high risk is 7% with a recall score of 91%, while the precision score for those with low-risk is 100% with a recall score of 94%.
